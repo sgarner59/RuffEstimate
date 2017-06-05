@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -179,8 +180,33 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\agency.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Breed\affenpinscher-300x189.jpg" />
+    <Content Include="Content\Images\Breed\airedale-terrier-300x189.jpg" />
+    <Content Include="Content\Images\Breed\akita-300x189.jpg" />
+    <Content Include="Content\Images\Breed\basset-hound-300x189.jpg" />
+    <Content Include="Content\Images\Breed\beagle-300x189.jpg" />
+    <Content Include="Content\Images\Breed\boxer-300x189.jpg" />
+    <Content Include="Content\Images\Breed\bulldog-300x189.jpg" />
+    <Content Include="Content\Images\Breed\chihuahua-300x189.jpg" />
+    <Content Include="Content\Images\Breed\Chinese Crested-300x189.jpg" />
+    <Content Include="Content\Images\Breed\chinook-300x189.jpg" />
+    <Content Include="Content\Images\Breed\cockapoo-300x189.jpg" />
+    <Content Include="Content\Images\Breed\dalmatian-300x189.jpg" />
+    <Content Include="Content\Images\Breed\icelandic-sheepdog-300x189.jpg" />
+    <Content Include="Content\Images\Breed\irish-setter-300x189.jpg" />
+    <Content Include="Content\Images\Breed\labradoodle-300x189.jpg" />
+    <Content Include="Content\Images\Breed\pointer-300x189.jpg" />
+    <Content Include="Content\Images\Breed\rat-terrier-300x189.jpg" />
+    <Content Include="Content\Images\Breed\rottweiler-300x189.jpg" />
+    <Content Include="Content\Images\Breed\saint-bernard-300x189.jpg" />
+    <Content Include="Content\Images\Breed\shih-tzu-300x189.jpg" />
+    <Content Include="Content\Images\Breed\siberian-husky-300x189.jpg" />
+    <Content Include="Content\Images\Breed\tibetan-mastiff-300x189.jpg" />
+    <Content Include="Content\Images\Breed\toy-fox-terrier-300x189.jpg" />
+    <Content Include="Content\Images\Breed\west-highland-white-terrier-300x189.jpg" />
     <Content Include="Content\Images\dogs-HomePageBackground.jpg" />
     <Content Include="Content\Images\many-dogs-homepage.jpg" />
     <Content Include="favicon.ico" />
@@ -189,6 +215,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\agency.min" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -239,7 +266,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\Breed\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
