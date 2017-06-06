@@ -183,12 +183,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\dogs-HomePageBackground.jpg" />
     <Content Include="Content\Images\many-dogs-homepage.jpg" />
+    <Content Include="Content\Images\so you want to be a owner.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Images\Cost_of_Owning_a_Dog.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
