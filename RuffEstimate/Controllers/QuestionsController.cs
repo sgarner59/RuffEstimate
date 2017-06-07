@@ -115,15 +115,22 @@ namespace RuffEstimate.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing)
+        //    {
+        //        db.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
+        public ActionResult Result(DogBreed d)
         {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
+            var dogResults = from b in db.DogBreeds where d.Name == "Akita" select d;
+            return View(d);
         }
                     
         
     }
+    //return breed 
+    //var dogResults 
 }

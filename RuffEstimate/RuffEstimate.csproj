@@ -196,6 +196,7 @@
     <Content Include="Content\Images\Breed\chinook-300x189.jpg" />
     <Content Include="Content\Images\Breed\cockapoo-300x189.jpg" />
     <Content Include="Content\Images\Breed\dalmatian-300x189.jpg" />
+    <Content Include="Content\Images\Header photo1.jpg" />
     <Content Include="Content\Images\Breed\icelandic-sheepdog-300x189.jpg" />
     <Content Include="Content\Images\Breed\irish-setter-300x189.jpg" />
     <Content Include="Content\Images\Breed\labradoodle-300x189.jpg" />
@@ -269,6 +270,7 @@
     <Content Include="Views\Questions\Details.cshtml" />
     <Content Include="Views\Questions\Edit.cshtml" />
     <Content Include="Views\Questions\Index.cshtml" />
+    <Content Include="Views\Questions\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
