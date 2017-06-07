@@ -1,0 +1,25 @@
+﻿@model IEnumerable<RuffEstimate.Models.DogBreed>
+@{
+    ViewBag.Title = "DogBreeds";
+}
+
+<h2>Congragulations!</h2>
+<h3>The following dog breeds are a great match for you!</h3>
+
+
+<form action="" method="post">
+        <table class="table">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.DogBreed)</th>
+                <th>            </th>
+                <th>            </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.DogBreed)</td>
+                </tr>
+            }
+        </table>
+        <input type="reset" name="Restart Quiz" value="Restart Quiz" />
+    </form>
