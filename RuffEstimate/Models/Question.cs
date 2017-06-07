@@ -15,9 +15,9 @@ namespace RuffEstimate.Models
         [StringLength(200)]
         public string QuestionString { get; set; }
 
-        //public int? Order { get; set; }
+        public int? Order { get; set; }
 
-        //[StringLength(20)]
-        //public string Characteristic { get; set; }
+        [StringLength(20)]
+        public string Characteristic { get; set; }
     }
 }
