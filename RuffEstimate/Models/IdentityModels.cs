@@ -29,7 +29,5 @@ namespace RuffEstimate.Models
         {
             return new ApplicationDbContext();
         }
-
-        public System.Data.Entity.DbSet<RuffEstimate.Models.Question> Questions { get; set; }
     }
 }

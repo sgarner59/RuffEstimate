@@ -12,7 +12,7 @@ namespace RuffEstimate.Controllers
 {
     public class QuestionsController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private RuffEstimateModel db = new RuffEstimateModel();
 
         // GET: Questions
         public ActionResult Index()

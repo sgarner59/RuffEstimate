@@ -15,14 +15,14 @@ namespace RuffEstimate.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "So, you want to be a dog owner?";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "For more information please contact us at";
 
             return View();
         }
