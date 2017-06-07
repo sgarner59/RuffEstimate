@@ -8,15 +8,16 @@ namespace RuffEstimate.Models
 
     public partial class Question
     {
+        [Key]
         public int id { get; set; }
 
         [Required]
         [StringLength(200)]
         public string QuestionString { get; set; }
 
-        public int? Order { get; set; }
+        //public int? Order { get; set; }
 
-        [StringLength(20)]
-        public string Characteristic { get; set; }
+        //[StringLength(20)]
+        //public string Characteristic { get; set; }
     }
 }

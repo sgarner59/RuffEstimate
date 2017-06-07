@@ -1,0 +1,28 @@
+﻿@model IEnumerable<RuffEstimate.Models.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<form action="" method="post">
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.QuestionString)</th>
+            <th>            </th>
+            <th>            </th>            
+        </tr>
+        @foreach (var item in Model)
+                {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.QuestionString)</td>
+                <td><input type="radio" name="gender" value="True"> Yes</td>
+                <td><input type="radio" name="gender" value="False"> No</td>
+            </tr>
+                }
+        </table>
+    <input type="submit" name="Submit" value="Submit" />
+    <input type="reset" name="Reset" value="Reset" />
+</form>
