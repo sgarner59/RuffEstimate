@@ -13,7 +13,7 @@ namespace RuffEstimate.Controllers
     public class QuestionsController : Controller
     {
         private RuffEstimateModel db = new RuffEstimateModel();
-
+        [Authorize]
         // GET: Questions
         public ActionResult Index()
         {
@@ -113,6 +113,23 @@ namespace RuffEstimate.Controllers
             db.Questions.Remove(question);
             db.SaveChanges();
             return RedirectToAction("Index");
+        }       
+        
+        public ActionResult Details(UserQuestionAnswer item)
+        {
+            if (item == null)
+            {
+                return HttpNotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                db.UserQuestionAnswers.Add(item);
+                db.SaveChanges();
+
+            }
+
+            return RedirectToAction("Index");
         }
 
         //protected override void Dispose(bool disposing)
@@ -123,14 +140,5 @@ namespace RuffEstimate.Controllers
         //    }
         //    base.Dispose(disposing);
         //}
-        public ActionResult Result(DogBreed d)
-        {
-            var dogResults = from b in db.DogBreeds where d.Name == "Akita" select d;
-            return View(d);
-        }
-                    
-        
     }
-    //return breed 
-    //var dogResults 
 }
