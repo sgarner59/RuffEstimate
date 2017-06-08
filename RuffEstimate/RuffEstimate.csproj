@@ -196,6 +196,7 @@
     <Content Include="Content\Images\Breed\chinook-300x189.jpg" />
     <Content Include="Content\Images\Breed\cockapoo-300x189.jpg" />
     <Content Include="Content\Images\Breed\dalmatian-300x189.jpg" />
+    <Content Include="Content\Images\DogDiv2.jpg" />
     <Content Include="Content\Images\Header photo1.jpg" />
     <Content Include="Content\Images\Breed\icelandic-sheepdog-300x189.jpg" />
     <Content Include="Content\Images\Breed\irish-setter-300x189.jpg" />
@@ -210,7 +211,6 @@
     <Content Include="Content\Images\Breed\toy-fox-terrier-300x189.jpg" />
     <Content Include="Content\Images\Breed\west-highland-white-terrier-300x189.jpg" />
     <Content Include="Content\Images\dogs-HomePageBackground.jpg" />
-    <Content Include="Content\Images\many-dogs-homepage.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
